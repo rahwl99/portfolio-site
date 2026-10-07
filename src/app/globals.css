@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-jetbrains-mono: var(--font-jetbrains, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    
+    /* Reference site color system */
+    --background: #131316;
+    --foreground: #e1e1e6;
+    --foreground-muted: #8c8c99;
+    --foreground-subtle: #5f5f6e;
+    --border: #232329;
+    --border-hover: #32323a;
+    --card: #19191e;
+    --card-subtle: #16161a;
+    --accent: #a78bfa;
+    --accent-hover: #c4b5fd;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-jetbrains-mono);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-jetbrains-mono);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #2e2b3d;
+    color: #e1e1e6;
+  }
+}

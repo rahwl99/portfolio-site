@@ -1,0 +1,128 @@
+{
+  "siteMeta": {
+    "author": "Rahul Hazarika",
+    "initials": "RH",
+    "headline": "Hi, I'm Rahul Hazarika.",
+    "role": "Indie developer building games, software, and whatever seems worth making.",
+    "bioLead": "I started with GBA ROM hacks at 10. Since then, I've built games, shipped apps, and moved into software products.",
+    "socials": [
+      { "key": "github", "label": "github", "url": "https://github.com/rahwl99" },
+      { "key": "youtube", "label": "youtube", "url": "https://youtube.com/@arcanegames", "display": "youtube" },
+      { "key": "playstore", "label": "playstore", "url": "https://play.google.com/store/apps/dev?id=6709565087081421030", "display": "playstore" },
+      { "key": "email", "label": "email", "url": "mailto:rahulhazarika1704@gmail.com", "display": "email" }
+    ]
+  },
+  "projects": [
+    {
+      "id": "clip-engine",
+      "title": "clip engine",
+      "subtitle": "AI powered content repurposing tool",
+      "description": "A software pipeline that analyzes long form videos and turns promising moments into processed short form clips with subtitles, head tracking and background music.",
+      "technologies": "Python - Gemini - FFMPEG - Google Cloud - Cloudflare R2",
+      "status": "ACTIVE",
+      "links": [
+        { "label": "source ↗", "url": "https://github.com/rahwl99/clip-engine" }
+      ]
+    },
+    {
+      "id": "indian-car-multiplayer",
+      "title": "Indian Car Multiplayer",
+      "subtitle": "Multiplayer driving sandbox",
+      "description": "A small-scale multiplayer driving game built around an Indian setting and targetted towards a very specific market/audience.",
+      "technologies": "Unity - C# - Photon PUN 2",
+      "status": "IN PROGRESS",
+      "links": [
+        { "label": "play ↗", "url": "https://play.google.com/store/apps/details?id=com.IndianCar.Multiplayer" }
+      ]
+    }
+  ],
+"journey": [
+  {
+    "year": "2014",
+    "title": "GBA ROM HACKING",
+    "description": "Started modifying Pokémon GBA games, experimenting with maps, sprites, scripts, and figuring out how the games worked under the hood."
+  },
+  {
+    "year": "2016",
+    "title": "YOUTUBE",
+    "description": "Started creating gaming content on YouTube, eventually experimenting with simple animation and other forms of video."
+  },
+  {
+    "year": "2016",
+    "title": "UNITY",
+    "description": "Started building games from scratch with Unity, moving from modifying existing games to creating my own."
+  },
+  {
+    "year": "2017",
+    "title": "WATCH DOGS - MOBILE PROJECT",
+    "description": "Built a fan-made mobile project inspired by Watch Dogs, featuring Marcus Holloway and a small set of gameplay mechanics inspired by the original game. Documented the project on YouTube."
+  },
+  {
+    "year": "2018",
+    "title": "GTA V - MOBILE PROJECT",
+    "description": "Built a fan-made mobile project inspired by GTA V, featuring a partial recreation of Los Santos and gameplay inspired by the original. Published development and gameplay videos on YouTube."
+  },
+  {
+    "year": "2022",
+    "title": "10K SUBSCRIBERS",
+    "description": "Reached 10,000 subscribers on YouTube, turning years of experimenting and publishing into a growing audience."
+  },
+  {
+    "year": "2023",
+    "title": "OUTLAWS ONLINE",
+    "description": "Built a mobile open-world game inspired by GTA Online, with a smaller scope and simplified mechanics, and published it on Google Play. The game was later removed."
+  },
+  {
+    "year": "2024",
+    "title": "20K SUBSCRIBERS",
+    "description": "Reached 20,000 subscribers on YouTube."
+  },
+  {
+    "year": "2025",
+    "title": "GTA V - FINAL PROJECT",
+    "description": "Created a final, more ambitious version of the GTA V-inspired mobile project as a tribute to the earlier experiments, with a larger map and expanded gameplay."
+  },
+  {
+    "year": "2026",
+    "title": "INDIAN CAR MULTIPLAYER",
+    "description": "Built and published a multiplayer Indian car driving game for a specific audience, set in a small Indian town and featuring locally recognizable vehicles."
+  },
+  {
+    "year": "2026",
+    "title": "Clip Engine",
+    "description": "Built an AI-assisted video processing pipeline that analyzes long-form videos and turns promising moments into short-form clips with automated subtitles, subject tracking, and background music."
+  }
+],
+  "professionalWork": [
+    {
+      "title": "PM POSHAN School Inspection System",
+      "company": "Shillong Software Solutions",
+      "role": "Software Developer",
+      "period": "2026",
+      "status": "PARTIALLY IMPLEMENTED",
+      "description": "Built a web-based inspection application for officers conducting physical school inspections across Meghalaya under the PM POSHAN scheme. The application digitized field audits covering meal provision and related school facilities, and was implemented alongside the organization's existing system.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Supabase",
+        "Docker"
+      ],
+      "responsibilities": [
+        "Developed a field inspection workflow for officers conducting physical school visits.",
+        "Digitized collection of audit information around meal provision and related school facilities.",
+        "Integrated the application alongside the organization's existing PM POSHAN system."
+      ],
+      "link": "https://github.com/rahwl99/pm-poshan"
+    }
+  ],
+  "footprint": {
+    "intro": "A few numbers from things I've actually put into the world.",
+    "youtubeSubscribers": "22.5K+",
+    "youtubeViews": "320K+",
+    "playStoreDownloads": "50K+"
+  },
+  "now": {
+    "headline": "Currently building Clip Engine, an AI-assisted video clipping tool, and working on an update for Indian Car Multiplayer while also looking for new app ideas to build.",
+    "lastUpdated": "October 2026"
+  }
+}
